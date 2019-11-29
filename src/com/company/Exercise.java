@@ -1,5 +1,6 @@
 package com.company;
 
+// EXERCISE CLASS (BASE POINTS(1))
 public class Exercise {
     private String name = "";
     private String description = "";
@@ -29,6 +30,7 @@ public class Exercise {
         return position;
     }
 
+    // BASE POINTS(3)
     @Override
     public String toString() {
         return "\n" + this.getName() + "               " + "DURATION: " + this.getDuration()+".\n----------------------------------------\nDESCRIPTION: " + this.getDescription();

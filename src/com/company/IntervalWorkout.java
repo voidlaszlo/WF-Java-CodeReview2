@@ -1,5 +1,6 @@
 package com.company;
 
+// BONUS POINTS
 public class IntervalWorkout {
     private String[] exercises;
     private int repetitions = 0;
