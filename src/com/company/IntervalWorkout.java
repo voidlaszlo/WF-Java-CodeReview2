@@ -34,7 +34,9 @@ public class IntervalWorkout {
                     "Sit Ups\n" +
                     "Planks\n" +
                     "=============================");
-            System.out.println("DO THE BREAK ("+ this.getBreakLength() +" SECONDS)");
+            if (i != this.getRepetitions()) {
+                System.out.println("DO THE BREAK (" + this.getBreakLength() + " SECONDS)");
+            }
         }
         System.out.println("********************\n" +
                 "CONGRATS YOU ARE DONE\n" +
